@@ -320,3 +320,20 @@ figure {
   width: 33.33%;
   padding: 10px 10px 10px 5px;
 }
+
+.floating {
+  width: 30%;
+  height: auto;
+  background: grey;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 0;
+  color: black;
+  font-size: 30px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  transition: background 0.25s;
+}
