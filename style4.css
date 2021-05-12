@@ -189,10 +189,10 @@ footer hr{
   background-color: grey;
 }
 
-div.desc{
-  float:center;
-  padding: 0 100px 0 0 ;
-  margin: 10px 10px 10px 100px;
+div.desc {
+  float:right;
+  padding: 0 0 0 0 ;
+  margin: 10px 10px 10px 800px;
   text-align: center;
   background: white;
   color: white;
@@ -200,9 +200,10 @@ div.desc{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 div.img{
-  float: left;
-  padding: 10px 10px 10px 10px;
+  float: right;
 }
 
 div.text{
@@ -210,18 +211,18 @@ div.text{
     padding: 10px 25px 0 0;
 }
 
-.work {
-  padding: 50px 190px 20px 190px;
-}
 
 div.profile{
   float: left;
-  padding: 10px 10px 10px 100px;
-  width: 500px;
+  padding: 10px 10px 10px 0;
+  width: auto;
+  Height: 30%;
 }
 div.profile img{
-  width: 70%;
+  width: 65%;
   height: auto;
+  padding: 10px 10px 10px 100px;
+
 }
 
 div.profile h3{
@@ -229,26 +230,36 @@ div.profile h3{
     font-size: 20px;
     border-bottom: 10px;
     text-transform: none;
-    padding: 0 0 0 0;
+    padding: 0 0 0 100px;
     color: black;
 }
 
-div.desc{
-  float: left;
-  padding: 0 0 0 0;
-  width: 600px;
-  font-size: 15px;
-
+#desc h4{
+  font-family: serif;
+  float:none;
+    font-size: 20px;
+    text-transform: none;
+    padding: 0 75px 0 0;
+    margin: 0 0 100px 0;
+    color: black;
 }
 
 
 div.head {
   font-family: sans-serif;
-  float: none;
-    font-size: 30px;
+    font-size: 20px;
     border-bottom: 10px;
     text-transform: none;
-    padding: 30px 10px 40px 500px;
+    padding: 20px 0 0 100px;
+    color: black;
+}
+
+div.head h1{
+  font-family: sans-serif;
+    font-size: 50px;
+    border-bottom: 10px;
+    text-transform: none;
+    padding: 20px 0 10px 0;
     color: black;
 }
 
